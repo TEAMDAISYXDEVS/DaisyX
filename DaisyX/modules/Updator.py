@@ -1,4 +1,5 @@
 # **Copyright ©2021-2022 @DaisyXNews
+# Made By @LegendX22
 
 
 from DaisyX.services.events import register
