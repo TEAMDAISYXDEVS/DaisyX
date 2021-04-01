@@ -36,7 +36,7 @@ Enjoy Your Bot!!💝
 <b>Inuka (@InukaASiTH) Developer</b>
 <b>SHUBHAM (@theshubhamgundu) Promoter</b>
 <b>ROHAN (@RoHaN_TeRa_BaAp) Supporter</b>
-<h1>#TEAMDAISYXDEVS</h1>
+<h1>#TEAMDAISYX</h1>
 </details>
 
 
