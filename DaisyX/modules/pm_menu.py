@@ -75,8 +75,7 @@ async def get_start_func(message, strings, edit=False):
     buttons.add (InlineKeyboardButton(strings['btn_lang'], callback_data='lang_btn'),
                  InlineKeyboardButton(strings['btn_source'], url='https://github.com/TEAMDAISYXDEVS/'))
     buttons.add(InlineKeyboardButton(strings['btn_channel'], url='https://t.me/DaisyXNews'),
-                InlineKeyboardButton('👥 Support Group', url='https://t.me/DaisyXSupport')
-                InlineKeyboardButton('🇮🇳 Dev', url="https://t.me/lucifeermorningstar")
+                InlineKeyboardButton('👥 Support Group', url='https://t.me/DaisyXSupport')           
     buttons.add(InlineKeyboardButton("👸🏼 Add DaisyX to your group", url=f'https://telegram.me/daisyx_bot?startgroup=true'))
     # Handle error when user click the button 2 or more times simultaneously
     with suppress(MessageNotModified):
