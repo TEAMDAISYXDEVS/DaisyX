@@ -9,7 +9,7 @@ Currently support:
      - Music
 
 <b> Setting up </b>
-1) Add @DaisyXBot to your channel
+1) Add @DaisyBeta_Bot to your channel
 2) Make bot admin with full permissions
 2) Go back to your group
 
