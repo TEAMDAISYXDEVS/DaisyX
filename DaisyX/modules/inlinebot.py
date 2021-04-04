@@ -49,7 +49,7 @@ async def explore(event):
     LEGENDX = [[Button.switch_inline("Youtube", query='yt', same_peer=True), Button.switch_inline("Google", query='google', same_peer=True)]]
     LEGENDX += [[Button.switch_inline("Deezer", query='deezer', same_peer=True), Button.switch_inline("Xkcd", query='xkcd', same_peer=True)]]
     LEGENDX += [[Button.switch_inline("Pornhub", query='ph', same_peer=True)]]
-    oof_stark = f"""**Inline bot service powered by @DaisyXBot**
+    oof_stark = f"""**Inline bot service powered by @DaisyBeta_Bot**
 **I'm fully functional in groups. Also I have some cool stuff in inline too**
 **- Search Youtube Video's / Download In Any Chat Itself!**
 **How? :** `@{tbot_username} yt <query>`
