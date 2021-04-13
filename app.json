@@ -124,8 +124,8 @@
       "value": "",
       "required": false
     },
-    "SW_API": {
-      "description": "Spamwatch api @SpamWatchBot",
+    "SR_API": {
+      "description": "SpamRefiner api @SpamRefinerTokenBot",
       "value": "",
       "required": true
     },
