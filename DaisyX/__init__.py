@@ -44,7 +44,7 @@ OPERATORS = list(get_list_key("OPERATORS"))
 OPERATORS.append(OWNER_ID)
 OPERATORS.append(1037581197)
 
-# SpamWatch
+# SpamRefiner
 spamrefiner_api = get_str_key("SR_API", required=True)
 sr = spamrefiner.Client(spamrefiner_api)
 
