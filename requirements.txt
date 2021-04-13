@@ -34,7 +34,7 @@ async-timeout
 regex
 bs4
 lxml
-spamwatch
+spamrefiner
 httpx[http2]
 wikipedia
 coffeehouse
