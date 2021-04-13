@@ -15,7 +15,7 @@
 
 import asyncio
 import logging
-import spamwatch
+import spamrefiner
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.bot.api import TelegramAPIServer, TELEGRAM_PRODUCTION
@@ -45,8 +45,8 @@ OPERATORS.append(OWNER_ID)
 OPERATORS.append(1037581197)
 
 # SpamWatch
-spamwatch_api = get_str_key("SW_API", required=True)
-sw = spamwatch.Client(spamwatch_api)
+spamrefiner_api = get_str_key("SR_API", required=True)
+sr = spamrefiner.Client(spamrefiner_api)
 
 # Support for custom BotAPI servers
 if url := get_str_key("BOTAPI_SERVER"):
