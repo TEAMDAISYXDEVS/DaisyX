@@ -48,6 +48,11 @@ OPERATORS.append(1037581197)
 spamrefiner_api = get_str_key("SR_API", required=True)
 sr = spamrefiner.Client(spamrefiner_api)
 
+
+#SpamWatch
+spamwatch_api = get_str_key("SW_API", required=True)
+sw = spamwatch.Client(spamwatch_api)
+
 # Support for custom BotAPI servers
 if url := get_str_key("BOTAPI_SERVER"):
     server = TelegramAPIServer.from_base(url)
